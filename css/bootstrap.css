@@ -5994,6 +5994,10 @@ a.badge:focus {
 .carousel-inner > .item > a > img {
   display: block;
   line-height: 1;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .carousel-inner > .active,
@@ -6164,4 +6168,53 @@ a.badge:focus {
 
 .affix {
   position: fixed;
+}
+
+.fila-fondo {
+  background: linear-gradient(to bottom, #ffffff, #f4f6f9);
+  border: 1px solid #e1e5ea;
+  border-radius: 6px;
+  width: auto;
+  padding: 20px 15px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 24px;
+  margin-left: auto; /* hereda de .row */
+    /* Si quieres que el fondo no se salga: */
+    /* margin-left: 0; */
+} 
+
+.footer-fondo {
+  background: linear-gradient(to bottom, #ffffff, #f4f6f9);
+  border: 1px solid #e1e5ea;
+  padding: 16px 50px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  margin-left: 0px; /* hereda de .row */
+  /* Si quieres que el fondo no se salga: */
+  /* margin-left: 0; */
+} 
+
+.carousel-fondo {
+  background-color: rgba(52, 152, 219, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 0px solid rgba(52, 152, 219, 0.3);  /* mismo color, más transparente */
+  width: auto;
+  border-radius: 8px;
+  padding: 80px 70px;
+  box-shadow: 0 4px 20px rgba(52, 152, 219, 0.15);
+  margin-bottom: 24px;
+  margin-left: 60px;
+}
+
+.pdf-visor {
+  width: auto;
+  height: 900px;
+  border: 1px solid #e1e5ea;
+  overflow: hidden;
+}
+
+.pdf-visor iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
 }
