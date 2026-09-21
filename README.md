@@ -1,1 +1,1 @@
-(TeamPMG)[https://teampmg.github.io/]
+[TeamPMG](https://teampmg.github.io/)
