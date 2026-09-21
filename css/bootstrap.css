@@ -6186,7 +6186,7 @@ a.badge:focus {
   background: linear-gradient(to bottom, #ffffff, #f4f6f9);
   border: 1px solid #e1e5ea;
   border-radius: 6px;
-  padding: 16px 50px;
+  padding: 12px 25px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
   margin-left: 0px; /* hereda de .row */
   /* Si quieres que el fondo no se salga: */
@@ -6199,10 +6199,9 @@ a.badge:focus {
   -webkit-backdrop-filter: blur(12px);
   border: 0px solid rgba(52, 152, 219, 0.3);  /* mismo color, más transparente */
   width: auto;
-  border-radius: 8px;
-  padding: 80px 70px;
+  border-radius: 6px;
+  padding: 40px 30px;
   box-shadow: 0 4px 20px rgba(52, 152, 219, 0.15);
-  margin-bottom: 24px;
   margin-left: 10px;
 }
 
