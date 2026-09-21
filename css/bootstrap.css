@@ -5995,7 +5995,7 @@ a.badge:focus {
   display: block;
   line-height: 1;
   width: 100%;
-  height: 700px;
+  height: 400px;
   object-fit: cover;
   object-position: center;
 }
@@ -6194,7 +6194,6 @@ a.badge:focus {
 } 
 
 .carousel-fondo {
-  width: auto;
   background-color: rgba(52, 152, 219, 0.6);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -6204,6 +6203,18 @@ a.badge:focus {
   box-shadow: 0 4px 20px rgba(52, 152, 219, 0.15);
   margin-bottom: 6px;
   margin-left: 6px;
+}
+
+.nav-fondo {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 0px solid rgba(52, 152, 219, 0.3);  /* mismo color, más transparente */
+  border-radius: 6px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 20px rgba(52, 152, 219, 0.15);
+  margin-bottom: 0px;
+  margin-left: 0px;
 }
 
 .pdf-visor {

@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <title>TeamPMG &middot; Soporte Informático</title>
-    <link rel="icon" type="image/x-icon" href="./img/icons/teampmg_logo.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Soporte TI">
-    <meta name="author" content="Patricio M.">
-    <meta rel="canonical" href="https://teampmg.github.io">
-        
-    <!-- Le styles -->
-    <link href="/css/bootstrap.css" rel="stylesheet">
-    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
-    <style>
 
+<head>
+  <meta charset="utf-8">
+  <title>TeamPMG &middot; Soporte Informático</title>
+  <link rel="icon" type="image/x-icon" href="./img/icons/teampmg_logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Soporte TI">
+  <meta name="author" content="Patricio M.">
+  <meta rel="canonical" href="https://teampmg.github.io">
+
+  <!-- Le styles -->
+  <link href="/css/bootstrap.css" rel="stylesheet">
+  <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+  <style>
     /* GLOBAL STYLES
     -------------------------------------------------- */
     /* Padding below the footer and lighter body text */
@@ -37,34 +37,36 @@
       right: 0;
       z-index: 10;
       margin-top: 20px;
-      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+      margin-bottom: -90px;
+      /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
     }
 
     /* Remove border and change up box shadow for more contrast */
     .navbar .navbar-inner {
-      border:2px solid #222222;
-      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+      border: 2px solid #222222;
+      -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, .25);
+      -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, .25);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, .25);
     }
 
-    /* Downsize the brand/project name a bit */ <!--
+    /* Downsize the brand/project name a bit */
     .navbar .brand {
-      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+      padding: 14px 20px 16px;
+      /* Increase vertical padding to match navbar links */
       font-size: 16px;
       font-weight: bold;
-      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
     }
-    
+
     /* Navbar links: increase padding for taller navbar */
-    .navbar .nav > li > a {
+    .navbar .nav>li>a {
       padding: 15px 20px;
     }
 
     /* Offset the responsive button for proper vertical alignment */
     .navbar .btn-navbar {
       margin-top: 10px;
-    } 
+    }
 
 
 
@@ -85,7 +87,7 @@
       height: 80px;
       margin-top: 0;
       font-size: 120px;
-      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
       background-color: transparent;
       border: 0;
       z-index: 10;
@@ -94,6 +96,7 @@
     .carousel .item {
       height: 500px;
     }
+
     .carousel img {
       position: absolute;
       top: 0;
@@ -109,13 +112,15 @@
       padding: 0 20px;
       margin-top: 200px;
     }
+
     .carousel-caption h1,
     .carousel-caption .lead {
       margin: 0;
       line-height: 1.25;
       color: #fff;
-      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
     }
+
     .carousel-caption .btn {
       margin-top: 10px;
     }
@@ -129,9 +134,11 @@
     .marketing .span4 {
       text-align: center;
     }
+
     .marketing h2 {
       font-weight: normal;
     }
+
     .marketing .span4 p {
       margin-left: 10px;
       margin-right: 10px;
@@ -142,20 +149,27 @@
     ------------------------- */
 
     .featurette-divider {
-      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+      margin: 66px 0;
+      /* Space out the Bootstrap <hr> more */
     }
+
     .featurette {
-      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
-      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+      padding-top: 120px;
+      /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden;
+      /* Vertically center images part 2: clear their floats. */
     }
+
     .featurette-image {
-      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+      margin-top: -120px;
+      /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
     }
 
     /* Give some space on the sides of the floated elements so text doesn't run right into it. */
     .featurette-image.pull-left {
       margin-right: 40px;
     }
+
     .featurette-image.pull-right {
       margin-left: 40px;
     }
@@ -179,6 +193,7 @@
         margin-bottom: 0;
         width: auto;
       }
+
       .navbar-inner {
         border-radius: 0;
         margin: -20px 0;
@@ -187,6 +202,7 @@
       .carousel .item {
         height: 500px;
       }
+
       .carousel img {
         width: auto;
         height: 500px;
@@ -196,6 +212,7 @@
         height: auto;
         padding: 0;
       }
+
       .featurette-image.pull-left,
       .featurette-image.pull-right {
         display: block;
@@ -216,195 +233,210 @@
         margin-left: -20px;
         margin-right: -20px;
       }
+
       .carousel .item {
         height: 300px;
       }
+
       .carousel img {
         height: 300px;
       }
+
       .carousel-caption {
         width: 65%;
         padding: 0 70px;
         margin-top: 100px;
       }
+
       .carousel-caption h1 {
         font-size: 30px;
       }
+
       .carousel-caption .lead,
       .carousel-caption .btn {
         font-size: 18px;
       }
 
-      .marketing .span4 + .span4 {
+      .marketing .span4+.span4 {
         margin-top: 40px;
       }
 
       .featurette-heading {
         font-size: 30px;
       }
+
       .featurette .lead {
         font-size: 18px;
         line-height: 1.5;
       }
 
     }
-    </style>
+  </style>
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
       <script src="../js/html5shiv.js"></script>
     <![endif]-->
 
-    <!-- Fav and touch icons -->
+  <!-- Fav and touch icons -->
 
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <!-- NAVBAR
+  <!-- NAVBAR
     ================================================== -->
-    <div class="navbar-wrapper">
-      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-      <div class="container">
+  <div class="navbar-wrapper">
+    <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+    <div class="container">
 
-        <div class="navbar navbar-inverse">
-          <div class="navbar-inner">
-            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <img src="../img/icons/teampmg_logo.png" width="48" class="img pull-left" alt="TeamPMG"> 
-            <a class="brand" href="#a">TeamPMG</a>
-            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-            <div class="nav-collapse collapse">
-              <ul class="nav">
-                <li class="active"><a href="#a">Inicio</a></li>
-                <li><a href="./about.html#about">Acerca de</a></li>
-                <li><a href="./services.html#service">Servicios</a></li>
-                <li><a href="./contact.html#contact">Contacto</a></li>
-                </li>
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div><!-- /.navbar-inner -->
-        </div><!-- /.navbar -->
-
-      </div> <!-- /.container -->
+      <div class="navbar navbar-inverse">
+        <div class="navbar-inner ">
+          <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <img src="../img/icons/teampmg_logo.png" width="48" class="img pull-left" alt="TeamPMG">
+          <a class="brand" href="#a">TeamPMG</a>
+          <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#a">Inicio</a></li>
+              <li><a href="./about.html#about">Acerca de</a></li>
+              <li><a href="./services.html#service">Servicios</a></li>
+              <li><a href="./contact.html#contact">Contacto</a></li>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!-- /.navbar-inner -->
+      </div><!-- /.navbar -->
     </div><!-- /.navbar-wrapper -->
+  </div> <!-- /.container -->
 
 
 
-    <!-- Carousel
+
+  <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide">
-     <!-- Carousel items -->
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="/img/cusel/2.jpeg" alt="">
-          <div class="container">
-            <div class="carousel-caption carousel-fondo">
-              <h1>Mantenimiento.</h1>
-              <p class="lead">Deja tu equipo como nuevo, desde la limpieza física hasta el cambio de pasta térmica.</p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="/img/cusel/3.jpeg" alt="">
-          <div class="container">
-            <div class="carousel-caption carousel-fondo">
-              <h1>Hardware.</h1>
-              <p class="lead">Si necesitas mayor potencia de cómputo, o si algún componente empieza a fallar, <b>TeamPMG</b> es tu preferencia.</p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="/img/cusel/3.jpeg" alt="">
-          <div class="container">
-            <div class="carousel-caption carousel-fondo">
-              <h1>Software.</h1>
-              <p class="lead">Tus requerimientos informaticos.</p>
-              <a class="btn btn-large btn-primary" href="./contact.html#contact">Consulta ahora!</a>
-              <p><small>&nbsp</small></p>
-            </div>
+  <div id="myCarousel" class="carousel slide">
+    <!-- Carousel items -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="/img/cusel/2.jpeg" alt="">
+        <div class="container">
+          <div class="carousel-caption carousel-fondo">
+            <h1>Mantenimiento.</h1>
+            <p class="lead">Deja tu equipo como nuevo, desde la limpieza física hasta el cambio de pasta térmica.</p>
           </div>
         </div>
       </div>
-     
-    </div><!-- /.carousel -->
+      <div class="item">
+        <img src="/img/cusel/3.jpeg" alt="">
+        <div class="container">
+          <div class="carousel-caption carousel-fondo">
+            <h1>Hardware.</h1>
+            <p class="lead">Si necesitas mayor potencia de cómputo, o si algún componente empieza a fallar,
+              <b>TeamPMG</b> es tu preferencia.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="/img/cusel/3.jpeg" alt="">
+        <div class="container">
+          <div class="carousel-caption carousel-fondo">
+            <h1>Software.</h1>
+            <p class="lead">Tus requerimientos informaticos.</p>
+            <a class="btn btn-large btn-primary" href="./contact.html#contact">Consulta ahora!</a>
+            <p><small>&nbsp</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /.carousel -->
 
 
 
-    <!-- Marketing messaging and featurettes
+  <!-- Marketing messaging and featurettes
     ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing">
-
-
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="featurette">
-        <img class="featurette-image pull-left" src="/img/featurete/seguridad.png" width="96" alt="Respaldo de datos">
-        <h2 class="featurette-heading">Seguridad informática. <span class="muted">Tu dispositivo asegurado.</span></h2>
-        <p class="lead">Navegar de manera segura en la red, evitar los sitios sospechosos y utilizar bloqueadores de anuncios, te mantiene fuera de riesgos a amenazas.</p>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="featurette">
-        <img class="featurette-image pull-left" src="/img/featurete/bupwiz.png" width="96" alt="Respaldo de datos">
-        <h2 class="featurette-heading">Respalda tus datos. <span class="muted">Documentos, fotos, música, videos.</span></h2>
-        <p class="lead">Tus datos son importantes, asegúrate de tener tus copias de seguridad para no perder lo más preciado para ti. </p>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="featurette">
-        <img class="featurette-image pull-left" src="/img/featurete/optimizacion.png" width="96" alt="Respaldo de datos">
-        <h2 class="featurette-heading">Optimiza tu equipo. <span class="muted">Mantenlo en buenas condiciones.</span></h2>
-        <p class="lead">Ya sea por el rendimiento o un factor físico, yo te lo puedo dejar como nuevo.</p>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
-
-      <!-- FOOTER -->
-        <footer>
-          <p id="copyright"><span id="year"></span> &middot; TeamPMG — Soporte Informático</p>
-          <p><a target="_blank" href="https://docs.github.com/es/site-policy/privacy-policies/github-general-privacy-statement">Privacidad</a> &middot; <a target="_blank" href="./docs/tyc.pdf">Terminos</a> &middot; <a target="_blank" href="./docs/politica.pdf">Política</a> &middot; <a target="_blank" href="./docs/consentimiento.pdf">Consentimiento</a> &middot; <a href="#">Volver al principio</a></p>
-        </footer>
-
-    </div><!-- /.container -->
+  <div class="container marketing">
 
 
 
-    <!-- Le javascript
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="featurette">
+      <img class="featurette-image pull-left" src="/img/featurete/seguridad.png" width="96" alt="Respaldo de datos">
+      <h2 class="featurette-heading">Seguridad informática. <span class="muted">Tu dispositivo asegurado.</span></h2>
+      <p class="lead">Navegar de manera segura en la red, evitar los sitios sospechosos y utilizar bloqueadores de
+        anuncios, te mantiene fuera de riesgos a amenazas.</p>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="featurette">
+      <img class="featurette-image pull-left" src="/img/featurete/bupwiz.png" width="96" alt="Respaldo de datos">
+      <h2 class="featurette-heading">Respalda tus datos. <span class="muted">Documentos, fotos, música, videos.</span>
+      </h2>
+      <p class="lead">Tus datos son importantes, asegúrate de tener tus copias de seguridad para no perder lo más
+        preciado para ti. </p>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="featurette">
+      <img class="featurette-image pull-left" src="/img/featurete/optimizacion.png" width="96" alt="Respaldo de datos">
+      <h2 class="featurette-heading">Optimiza tu equipo. <span class="muted">Mantenlo en buenas condiciones.</span></h2>
+      <p class="lead">Ya sea por el rendimiento o un factor físico, yo te lo puedo dejar como nuevo.</p>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+
+    <!-- FOOTER -->
+    <footer>
+      <p id="copyright"><span id="year"></span> &middot; TeamPMG — Soporte Informático</p>
+      <p><a target="_blank"
+          href="https://docs.github.com/es/site-policy/privacy-policies/github-general-privacy-statement">Privacidad</a>
+        &middot; <a target="_blank" href="./docs/tyc.pdf">Terminos</a> &middot; <a target="_blank"
+          href="./docs/politica.pdf">Política</a> &middot; <a target="_blank"
+          href="./docs/consentimiento.pdf">Consentimiento</a> &middot; <a href="#">Volver al principio</a></p>
+    </footer>
+
+  </div><!-- /.container -->
+
+
+  <!-- Le javascript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./js/jquery.js"></script>
-    <script src="./js/bootstrap.js"></script>
-    <script>
-      !function ($) {
-        $(function(){
-          // carousel demo
-          $('#myCarousel').carousel({
-             interval: 4000
-          })
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="./js/jquery.js"></script>
+  <script src="./js/bootstrap.js"></script>
+  <script>
+    !function ($) {
+      $(function () {
+        // carousel demo
+        $('#myCarousel').carousel({
+          interval: 4000
         })
-      }(window.jQuery)
-    </script>
-      <script>
-        $(document).ready(function() {
-            var year = new Date().getFullYear();
-            $('#year').text(year);
-        });
-      </script>
-    </script>
-   </body>
+      })
+    }(window.jQuery)
+  </script>
+  <script>
+    $(document).ready(function () {
+      var year = new Date().getFullYear();
+      $('#year').text(year);
+    });
+  </script>
+  </script>
+</body>
+
 </html>
