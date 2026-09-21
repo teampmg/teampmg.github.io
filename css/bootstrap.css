@@ -6174,7 +6174,6 @@ a.badge:focus {
   background: linear-gradient(to bottom, #ffffff, #f4f6f9);
   border: 1px solid #e1e5ea;
   border-radius: 6px;
-  width: auto;
   padding: 20px 15px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
   margin-bottom: 24px;
@@ -6186,6 +6185,7 @@ a.badge:focus {
 .footer-fondo {
   background: linear-gradient(to bottom, #ffffff, #f4f6f9);
   border: 1px solid #e1e5ea;
+  border-radius: 6px;
   padding: 16px 50px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
   margin-left: 0px; /* hereda de .row */
@@ -6203,7 +6203,7 @@ a.badge:focus {
   padding: 80px 70px;
   box-shadow: 0 4px 20px rgba(52, 152, 219, 0.15);
   margin-bottom: 24px;
-  margin-left: 16px;
+  margin-left: 10px;
 }
 
 .pdf-visor {
